@@ -10,3 +10,4 @@ jobs:
         echo "hello $GITHUB_ACTOR, your token: $GITHUB_TOKEN"
       env:
         NAME: Alper
+        GITHUB_TOKEN: ${{ $ALPER_TOKEN }}
