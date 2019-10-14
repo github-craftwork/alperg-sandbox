@@ -7,6 +7,6 @@ jobs:
     steps:
     - name: hello-world
       run: |
-        echo "hello $GITHUB_ACTOR"
+        echo "hello $GITHUB_ACTOR, your token: GITHUB_TOKEN"
       env:
         NAME: Alper
